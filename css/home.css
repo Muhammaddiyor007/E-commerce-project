@@ -345,10 +345,11 @@ input:focus {
   background: #f63;
 }
 
-/* .promotion .promotion__cards .promotion__card .promotion__card__items .promotion__card-item .parts {
+.promotion .promotion__cards .promotion__card .promotion__card__items .promotion__card-item .parts {
   background-color: #f63;
   color: #fff;
-} */
+}
+
 .promotion .promotion__another__cards {
   margin-bottom: 50px;
   display: grid;
