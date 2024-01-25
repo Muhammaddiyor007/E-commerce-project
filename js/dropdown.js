@@ -3,7 +3,7 @@ function toggleDropdown() {
   if (dropdown.style.top === "-150%") {
     dropdown.style.top = "100%"; // Show the dropdown below the button
   } else {
-    dropdown.style.top = "-450%"; // Hide the dropdown
+    dropdown.style.top = "-450px"; // Hide the dropdown
   }
 }
 
