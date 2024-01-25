@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/header.min.css" />
   <link rel="stylesheet" href="./css/home.min.css" />
   <link rel="stylesheet" href="/css/backtop.css">
+  <link rel="stylesheet" href="css/dropdown.min.css">
 </head>
 <div id="backtop">
   <a href="#"><img src="./images/pages/index/backtop.svg" alt=""></a>
@@ -121,7 +122,8 @@
         </ul>
         <div class="hamburger" id="navbar-open">
           <button class="hamburger__btn">
-            <img href="./pages/catogory.html" src="./images/components/header/menu.svg" alt="Menu" />
+            <img onclick="toggleDropdown()" id="menuIcon" href="./pages/catogory.html"
+              src="./images/components/header/menu.svg" alt="Menu" />
           </button>
         </div>
         <div id="navbar-responsive">
@@ -1102,6 +1104,7 @@
   <!--footer  fix section done-->
   <script src="../js/main.js"></script>
   <script src="./js/home.js"></script>
+  <script src="js/dropdown.js"></script>
 </body>
 
 </html>
